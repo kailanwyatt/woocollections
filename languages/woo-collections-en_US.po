@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Exchange Collections\n"
+"POT-Creation-Date: 2015-01-21 02:10-0400\n"
+"PO-Revision-Date: 2015-01-22 15:14-0400\n"
+"Last-Translator: \n"
+"Language-Team: B4uCode <info@b4ucode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../exchange-collection.php:29 ../includes/bp-setup.php:6
+#: ../includes/bp-setup.php:22 ../init.php:487
+msgid "Collections"
+msgstr ""
+
+#: ../exchange-collection.php:30
+msgid "Adds the ability for users to create collections."
+msgstr ""
+
+#: ../init.php:76
+msgid "Add New Collection"
+msgstr ""
+
+#: ../init.php:77
+msgid "New Collection"
+msgstr ""
+
+#: ../init.php:78
+msgid "Edit Collection"
+msgstr ""
+
+#: ../init.php:79
+msgid "View Collection"
+msgstr ""
+
+#: ../init.php:80
+msgid "All Collections"
+msgstr ""
+
+#: ../init.php:81
+msgid "Search Collections"
+msgstr ""
+
+#: ../init.php:82
+msgid "Parent Collections:"
+msgstr ""
+
+#: ../init.php:83
+msgid "No collections found."
+msgstr ""
+
+#: ../init.php:84
+msgid "No collections found in Trash."
+msgstr ""
+
+#: ../init.php:111
+msgid "Add to collection"
+msgstr ""
+
+#: ../init.php:293
+msgid "Collection name can't be empty"
+msgstr ""
+
+#: ../init.php:327
+msgid "Add this to a Collection"
+msgstr ""
+
+#: ../init.php:344
+msgid "No collections found"
+msgstr ""
+
+#: ../init.php:349
+msgid "Create a Collection"
+msgstr ""
+
+#: ../init.php:352
+msgid "Collection Name"
+msgstr ""
+
+#: ../init.php:354
+msgid "Save Collection"
+msgstr ""
+
+#: ../init.php:406
+msgid "No Collections found"
+msgstr ""
+
+#: ../init.php:413
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../init.php:415
+msgid "Widgets in this area will be shown on the Collection page."
+msgstr ""
+
+#: ../init.php:439
+msgid "Remove from Collection"
+msgstr ""
+
+#: ../init.php:453
+msgid "General"
+msgstr ""
+
+#: ../init.php:527
+msgid "Error. Please try again"
+msgstr ""
+
+#: ../init.php:539
+msgid "Settings Saved."
+msgstr ""
+
+#: ../templates/admin-collections-settings.php:23
+msgid "Admin Notifications"
+msgstr ""
+
+#: ../templates/admin-collections-settings.php:27
+msgid "Default Thumbnail Effect"
+msgstr ""
+
+#: ../templates/admin-collections-settings.php:63
+msgid "Sellect the default transition effect for thumbnail."
+msgstr ""
+
+#: ../templates/admin-collections-settings.php:69
+msgid "Save Changes"
+msgstr ""
+
+#: ../templates/single-exc_collection.php:56
+msgid "No Products Found"
+msgstr ""
