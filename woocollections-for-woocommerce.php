@@ -6,7 +6,7 @@
  * Plugin URI: http://suiteplugins.com
  * Author: SuitePlugins
  * Author URI: http://suiteplugins.com
- 
+
  * Installation:
  * 1. Download and unzip the latest release zip file.
  * 2. If you use the WordPress plugin uploader to install this plugin skip to step 4.
@@ -18,8 +18,8 @@
  * Define constants
  * @since 1.0.0
  */
-define('WOO_COLLECTION_URL', plugins_url( '' , __FILE__ ));
-define('WOO_COLLECTION_PATH', plugin_dir_path( __FILE__ ));
+define( 'WOO_COLLECTION_URL', plugins_url( '', __FILE__ ) );
+define( 'WOO_COLLECTION_PATH', plugin_dir_path( __FILE__ ) );
 /**
  * Add languages
  * @since 1.0.0
@@ -32,14 +32,14 @@ function woo_collection_lang_init() {
 	load_textdomain( $domain, trailingslashit( WP_LANG_DIR ) . $domain . '/' . $domain . '-' . $locale . '.mo' );
 
 	// wp-content/plugins/woocollections-for-woocommerce/languages/plugin-name-de_DE.mo
-	load_plugin_textdomain( $domain, false, basename( dirname( __FILE__ ) ) . '/languages/' );
+	load_plugin_textdomain( $domain, false, basename( __DIR__ ) . '/languages/' );
 }
 
 // Add actions
 add_action( 'plugins_loaded', 'woo_collection_lang_init' );
 
-require_once( WOO_COLLECTION_PATH . 'init.php');	
-add_action('bp_include', 'woo_setup_bp_instance');
+require_once WOO_COLLECTION_PATH . 'init.php';
+add_action( 'bp_include', 'woo_setup_bp_instance' );
 
 /**
  * Check if WooCommerce is active and include files
@@ -50,7 +50,7 @@ if ( ! function_exists( 'is_woocommerce_activated' ) ) {
 	function is_woocommerce_activated() {
 		if ( class_exists( 'woocommerce' ) ) {
 			error_log( __LINE__ );
-		    
+
 		}
 	}
 }
@@ -60,6 +60,6 @@ if ( ! function_exists( 'is_woocommerce_activated' ) ) {
  * Include BuddyPress Navigation
  * @since 1.0.0
  */
-function woo_setup_bp_instance(){
-	require_once( WOO_COLLECTION_PATH . 'includes/bp-setup.php');	
+function woo_setup_bp_instance() {
+	require_once WOO_COLLECTION_PATH . 'includes/bp-setup.php';
 }
